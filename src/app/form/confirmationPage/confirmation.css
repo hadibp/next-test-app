@@ -1,0 +1,77 @@
+ /* ConfirmationPage.css */
+
+.body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set height to 100% of the viewport height */
+  }
+  
+  .container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .confirmation-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .confirmation-info h1 {
+    color: #333;
+  }
+  
+  .confirmation-info p {
+    margin: 10px 0;
+  }
+  
+  .edit-button {
+    margin-top: 20px;
+  }
+  
+  .edit-button button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-button button a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .edit-button button:hover {
+    background-color: #267bb8;
+  }
+  
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
